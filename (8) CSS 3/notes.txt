@@ -1,0 +1,11 @@
+box model : memberikan kotak dengan batas padding (dalam) , margin , border
+pada elemen
+float : memberikan efek melayang pada elemen
+clear : tidak memperbolehkan efek melayang/mengambang pada elemen
+yang telah diberikan efek float
+clearfix : memperbaiki elemen yang meluap di luar penampungnya
+karena menggunakan float
+@media : memberikan fitur responsif terhadap device yang mengakses
+halaman tersebut
+
+Inline-block : untuk membuat menu navigasi

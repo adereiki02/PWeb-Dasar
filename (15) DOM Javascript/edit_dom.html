@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggunaan DOM Javascript</title>
+</head>
+<body>
+
+    <!-- deklarasi paragraf -->
+    <div id="demo">
+        <div id="p1">Paragraf 1</div>
+    </div>
+
+    <script>
+        //menambahkan elemen 
+        var el = document.createElement('h2');
+        var text = document.createTextNode('Belajar programming online');
+        var box = document.getElementById('demo');
+
+        el.appendChild(text);
+        box.appendChild(el);
+
+        //menghapus elemen
+        //box.removeChild(el);
+        
+        //mengedit
+        var el2 = document.createElement('h3');
+        var text2 = document.createTextNode('belajar sekarang!');
+        el2.appendChild(text2);
+
+        //mengakses elemen p1
+        var p1 = document.getElementById('p1');
+
+        
+        box.replaceChild(el2, p1);
+        
+
+    </script>
+</body>
+</html>

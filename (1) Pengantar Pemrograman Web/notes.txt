@@ -1,0 +1,28 @@
+Peranan masing - masing HTML, CSS, JS, dan PHP
+1. HTML , memiliki peran untuk membangun sebuah struktur halaman website
+2. CSS, memiliki peran untuk menghiasi tampilan halaman website
+3. JS, memiliki peran untuk memberikan performa yang baik agar website dapat diakses dengan cepat
+4. PHP, memiliki peran untuk pengembangan website dengan fitur lebih lanjut 
+
+- MySQL
+bahasa query untuk mengelola data
+
+- Bootstrap
+library framework CSS agar web lebih responsive
+- Ajax
+framework dari javascript
+
+Konsep Client Server
+- komputer 1 sebagai klien yang meminta proses
+- komputer 2 sebagai server yang melayani permintaan klien
+
+Konsep Peer to Peer
+- kedua komputer bisa menjadi klien maupun server
+
+Cara Kerja Web
+User visit web -> Client device request/GET web -> Server give response -> Client
+device give response -> User can view the display of web
+
+htdocs : direktori special buat web
+file html dan php disimpan diluar direktori khusus 
+dokumen html yg valid terdapat bagian kepala , tubuh

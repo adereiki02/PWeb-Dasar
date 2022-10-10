@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggunaan DOM Javascript</title>
+</head>
+<body>
+
+    <!-- deklarasi id-->
+    <div id="demo"></div>
+
+    <!-- deklarasi class -->
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+
+    <!-- deklarasi nama tag -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+
+    <script>
+        //mengakses elemen berdasarkan id demo
+        document.getElementById('demo').innerHTML = "Ade Reiki Karuna";
+        
+        //mengakses elemen berdasarkan nama class
+        var boxes = document.getElementsByClassName('boxes');
+        boxes[0].innerHTML  = "isi dari boxes 1";
+        boxes[1].innerHTML  = "isi dari boxes 2";
+        boxes[2].innerHTML = "isi dari boxes 3";
+       
+        //mengakses elemen berdasarkan nama tag
+        var list = document.getElementsByTagName('li');
+        list[0].innerHTML = "PHP";
+        list[1].innerHTML = "SASS";
+        list[2].innerHTML = "JQuery";
+
+    </script>
+</body>
+</html>

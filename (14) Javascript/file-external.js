@@ -1,0 +1,1 @@
+document.getElementById("test").innerHTML = "Paragraf dari javascript external"

@@ -1,0 +1,33 @@
+HTML (Hypertext Markup Language)
+disebut dengan dokumen HTML dan bukan bahasa mesin (.exe)
+HTML berextensi .html
+
+Fungsi 
+- untuk membuat kerangka (header, body , footer)
+
+Perintah HTML selalu digunakan berpasangan antara tag HTML
+contoh : <h1>...</h1>, <p>...</p>
+
+Penulisan tag tersebut ditulis secara indentansi / menjorok
+agar rapih
+
+Struktur Dokumen HTML
+kepala
+<head>
+</head>
+
+badan
+<body>
+</body>
+
+Tag versi HTML
+Untuk menandai versi dokumen menggunakan tag <!DOCTYPE html>
+
+Atribut HTML
+Informasi tambahan untuk menandai halaman web 
+- Semua elemen HTML memiliki atribut
+- Atribut selalu ditulis pada tag awal
+- Atribut ditulis bersama nilai atributnya
+
+Contoh :
+<a href='www.dinus.ac.id'>Situs Udinus</a>

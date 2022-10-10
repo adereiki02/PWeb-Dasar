@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggunaan DOM Javascript</title>
+    <style>
+        .merah{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- deklarasi paragraf -->
+    <h1>Halo, Mari Belajar DOM Javascript</h1>
+
+    <img id="gambar" width=300 src="https://i.pinimg.com/originals/48/7b/26/487b26356fc781eec0b6c885ae6f86ed.png" alt="">
+
+    <input type="text" value="nama" id="input"> 
+
+    <script>
+        //mengubah atribut
+        var img = document.getElementById('gambar');
+        img.width = 500;
+
+        img.setAttribute('class','merah');
+
+        var input = document.getElementById('input');
+        input.value = "nama lengkap";
+        
+
+    </script>
+</body>
+</html>
